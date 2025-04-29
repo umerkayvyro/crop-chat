@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-dotenv
+langchain
+langchain_google_genai
+langgraph
+duckduckgo-search

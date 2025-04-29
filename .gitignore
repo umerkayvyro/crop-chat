@@ -1,0 +1,17 @@
+__pycache__/
+app/__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+eggs/
+.pytest_cache/
+.env
+venv/
+.DS_Store # macOS-specific
+*.swp      # Vim swap files
+*~        # backup files
+*.log
+shared_chroma_db
+shared_docs
