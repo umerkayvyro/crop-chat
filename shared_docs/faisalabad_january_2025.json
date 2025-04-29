@@ -1,0 +1,25 @@
+{
+    "description": "Land and Crop data for Faisalabad for the month of January 2025",
+    "landUseData": {
+      "AnnualCrop": { "acres": 60000 },
+      "Forest": { "acres": 10000 },
+      "HerbaceousVegatation": { "acres": 8000 },
+      "Highway": { "acres": 4000 },
+      "Industrial": { "acres": 10000 },
+      "Pasture": { "acres": 15000 },
+      "PermanentCrop": { "acres": 35000 },
+      "Residential": { "acres": 30000 },
+      "River": { "acres": 6000 },
+      "SeaLake": { "acres": 1000 }
+    },
+    "cropTypeData": {
+      "Wheat": { "acres": 50000 },
+      "Cotton": { "acres": 20000 },
+      "Others": { "acres": 20000 }
+    },
+    "expectedYieldData": {
+      "Wheat": { "expectedYield": 25000 },
+      "Cotton": { "expectedYield": 10000 },
+      "Others": { "expectedYield": 10000 }
+    }
+}

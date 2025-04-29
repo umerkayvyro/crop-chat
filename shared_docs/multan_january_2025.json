@@ -1,0 +1,25 @@
+{
+    "description": "Land and Crop data for Multan for the month of January 2025",
+    "landUseData": {
+      "AnnualCrop": { "acres": 45000 },
+      "Forest": { "acres": 12000 },
+      "HerbaceousVegatation": { "acres": 9000 },
+      "Highway": { "acres": 6000 },
+      "Industrial": { "acres": 11000 },
+      "Pasture": { "acres": 14000 },
+      "PermanentCrop": { "acres": 32000 },
+      "Residential": { "acres": 28000 },
+      "River": { "acres": 7000 },
+      "SeaLake": { "acres": 1500 }
+    },
+    "cropTypeData": {
+      "Wheat": { "acres": 35000 },
+      "Cotton": { "acres": 18000 },
+      "Others": { "acres": 17000 }
+    },
+    "expectedYieldData": {
+      "Wheat": { "expectedYield": 17500 },
+      "Cotton": { "expectedYield": 9000 },
+      "Others": { "expectedYield": 8500 }
+    }
+}

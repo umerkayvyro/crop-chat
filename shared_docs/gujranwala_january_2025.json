@@ -1,0 +1,26 @@
+{
+    "description": "Land and Crop data for Gujranwala for the month of January 2025",
+    "landUseData": {
+      "AnnualCrop": { "acres": 50000 },
+      "Forest": { "acres": 15000 },
+      "HerbaceousVegatation": { "acres": 10000 },
+      "Highway": { "acres": 5000 },
+      "Industrial": { "acres": 8000 },
+      "Pasture": { "acres": 12000 },
+      "PermanentCrop": { "acres": 30000 },
+      "Residential": { "acres": 25000 },
+      "River": { "acres": 5000 },
+      "SeaLake": { "acres": 2000 }
+    },
+    "cropTypeData": {
+      "Wheat": { "acres": 40000 },
+      "Cotton": { "acres": 25000 },
+      "Others": { "acres": 15000 }
+    },
+    "expectedYieldData": {
+      "Wheat": { "expectedYield": 20000 },
+      "Cotton": { "expectedYield": 12000 },
+      "Others": { "expectedYield": 8000 }
+    }
+  }
+  

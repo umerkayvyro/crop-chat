@@ -1,0 +1,25 @@
+{
+    "description": "Land and Crop data for Toba Tek Singh for the month of January 2025",
+    "landUseData": {
+      "AnnualCrop": { "acres": 35000 },
+      "Forest": { "acres": 8000 },
+      "HerbaceousVegatation": { "acres": 6000 },
+      "Highway": { "acres": 4000 },
+      "Industrial": { "acres": 7000 },
+      "Pasture": { "acres": 10000 },
+      "PermanentCrop": { "acres": 25000 },
+      "Residential": { "acres": 20000 },
+      "River": { "acres": 5000 },
+      "SeaLake": { "acres": 1000 }
+    },
+    "cropTypeData": {
+      "Wheat": { "acres": 30000 },
+      "Cotton": { "acres": 15000 },
+      "Others": { "acres": 10000 }
+    },
+    "expectedYieldData": {
+      "Wheat": { "expectedYield": 15000 },
+      "Cotton": { "expectedYield": 7500 },
+      "Others": { "expectedYield": 5000 }
+    }
+}

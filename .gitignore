@@ -14,4 +14,4 @@ venv/
 *~        # backup files
 *.log
 shared_chroma_db
-shared_docs
+# shared_docs

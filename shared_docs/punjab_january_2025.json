@@ -1,0 +1,25 @@
+{
+    "description": "Land and Crop data for Punjab province for the month of January 2025",
+    "landUseData": {
+      "AnnualCrop": { "acres": 300000 },
+      "Forest": { "acres": 70000 },
+      "HerbaceousVegatation": { "acres": 50000 },
+      "Highway": { "acres": 40000 },
+      "Industrial": { "acres": 60000 },
+      "Pasture": { "acres": 80000 },
+      "PermanentCrop": { "acres": 200000 },
+      "Residential": { "acres": 250000 },
+      "River": { "acres": 50000 },
+      "SeaLake": { "acres": 10000 }
+    },
+    "cropTypeData": {
+      "Wheat": { "acres": 250000 },
+      "Cotton": { "acres": 120000 },
+      "Others": { "acres": 100000 }
+    },
+    "expectedYieldData": {
+      "Wheat": { "expectedYield": 125000 },
+      "Cotton": { "expectedYield": 60000 },
+      "Others": { "expectedYield": 50000 }
+    }
+}

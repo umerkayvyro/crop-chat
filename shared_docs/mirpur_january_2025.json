@@ -1,0 +1,25 @@
+{
+    "description": "Land and Crop data for Mirpur, Azad Kashmir for the month of January 2025",
+    "landUseData": {
+      "AnnualCrop": { "acres": 20000 },
+      "Forest": { "acres": 10000 },
+      "HerbaceousVegatation": { "acres": 5000 },
+      "Highway": { "acres": 3000 },
+      "Industrial": { "acres": 5000 },
+      "Pasture": { "acres": 7000 },
+      "PermanentCrop": { "acres": 15000 },
+      "Residential": { "acres": 10000 },
+      "River": { "acres": 3000 },
+      "SeaLake": { "acres": 1000 }
+    },
+    "cropTypeData": {
+      "Wheat": { "acres": 15000 },
+      "Cotton": { "acres": 7000 },
+      "Others": { "acres": 5000 }
+    },
+    "expectedYieldData": {
+      "Wheat": { "expectedYield": 7500 },
+      "Cotton": { "expectedYield": 3500 },
+      "Others": { "expectedYield": 2500 }
+    }
+}
