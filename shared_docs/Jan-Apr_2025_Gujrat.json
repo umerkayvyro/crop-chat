@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Gujrat for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 18644.0,
+    "Cotton": 0.0,
+    "Others": 37071.0
+  },
+  "landUseData": {
+    "Natural": 92172.5,
+    "Urban/Barren": 522597.5
+  }
+}

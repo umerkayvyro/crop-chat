@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Umerkot for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 12902.5,
+    "Cotton": 0.0,
+    "Others": 153457.0
+  },
+  "landUseData": {
+    "Natural": 110973.0,
+    "Urban/Barren": 829897.5
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Shikarpur for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 7140.5,
+    "Cotton": 0.0,
+    "Others": 6541.0
+  },
+  "landUseData": {
+    "Natural": 606.0,
+    "Urban/Barren": 543758.0
+  }
+}

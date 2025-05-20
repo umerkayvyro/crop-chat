@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Jakobabad for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 5495.5,
+    "Cotton": 0.0,
+    "Others": 12554.5
+  },
+  "landUseData": {
+    "Natural": 1154.5,
+    "Urban/Barren": 843690.0
+  }
+}

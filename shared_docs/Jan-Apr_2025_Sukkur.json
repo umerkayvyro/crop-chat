@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Sukkur for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 100672.5,
+    "Cotton": 0.0,
+    "Others": 113278.5
+  },
+  "landUseData": {
+    "Natural": 1134.0,
+    "Urban/Barren": 888176.5
+  }
+}

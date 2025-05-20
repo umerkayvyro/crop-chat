@@ -30,7 +30,7 @@ doUpdateChromaDB = False
 async def create_retrieval_tool():
     vector_retriever = vectorstore.as_retriever(
         search_type="similarity",
-        search_kwargs={"k": 2},
+        search_kwargs={"k": 4},
     )
     if doUpdateChromaDB:
         chunks = await process_documents("shared_docs")
@@ -51,8 +51,10 @@ async def create_retrieval_tool():
 
     # 2. Create a Retrieval Tool
     def vectorstore_retrieval(query: str) -> str:
+        # print(f"Query: {query}")
         """Retrieves relevant documents from the vectorstore based on the query."""
         results = retriever.invoke(query)
+        # print(f"Results: {results}")
         # print(results)
         # Format the results (e.g., concatenate the document contents)
         if not results:
@@ -64,19 +66,19 @@ async def create_retrieval_tool():
         return contents
 
     @tool
-    def rag_retriever(location: str, month: str, year: str) -> str:
+    def rag_retriever(location: str, season: str, year: str) -> str:
         """Retrieves information from user documents based on semantic search (RAG).
 
         Args:
             district (str): The district OR province to search for.
-            month (str): The month to search for.
+            season (str): The season to search for.
             year (str): The year to search for.
 
         Returns:
             str: The retrieved information.
         """
         try:
-            return vectorstore_retrieval(f"{location} {month} {year}")
+            return vectorstore_retrieval(f"{location} {season} {year}")
         except Exception as e:
             return f"An error occurred during retrieval of documents"
 

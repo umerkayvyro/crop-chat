@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Rann of Kutch for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 422.0,
+    "Cotton": 0.0,
+    "Others": 1726.0
+  },
+  "landUseData": {
+    "Natural": 56.0,
+    "Urban/Barren": 10842071.0
+  }
+}

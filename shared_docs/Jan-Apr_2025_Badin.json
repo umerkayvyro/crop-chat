@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Badin for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 24931.5,
+    "Cotton": 0.0,
+    "Others": 618504.5
+  },
+  "landUseData": {
+    "Natural": 15015.5,
+    "Urban/Barren": 667186.0
+  }
+}

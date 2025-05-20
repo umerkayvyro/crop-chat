@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Punjab for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 1551068.5,
+    "Cotton": 0.0,
+    "Others": 3951368.0
+  },
+  "landUseData": {
+    "Natural": 681024.0,
+    "Urban/Barren": 31524951.0
+  }
+}

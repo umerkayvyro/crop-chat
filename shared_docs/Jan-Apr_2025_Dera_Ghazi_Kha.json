@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Dera Ghazi Kha for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 471460.5,
+    "Cotton": 0.0,
+    "Others": 1038215.0
+  },
+  "landUseData": {
+    "Natural": 32463.5,
+    "Urban/Barren": 4288999.5
+  }
+}

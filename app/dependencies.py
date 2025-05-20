@@ -34,14 +34,19 @@ async def init_agent():
     agent_executor = create_react_agent(
         model, tools, checkpointer=memory, 
         prompt=SystemMessage(
-            "You are an AI expert in agricultural data with tools to access data and generate insights. "
+            "You are a helpful AI expert in agricultural data with tools to access data and generate insights. "
             "Your primary focus is on agriculture in Pakistan. "
             "Whenever user or you mention a location, use show_map to show the map of that location."
+            "When explaining data, explain reasons and trends from your own knowledge."
             "Tools:"
             "For land use and crop data, you can use the RAG tool."
+            "Season for land use is Winter from 'Jan-Apr' and Summer from 'Jun-Dec'."
+            "If user asks for January to May, search for Winter data Jan-Apr."
+            "Only Data for Winter 2025 and Summer 2024 is available. All data is in acres." 
             "You can use web search tools to find information on the internet. "
             "If you dont find data in RAG, you can use web search."
             "Do multiple tool calls for multiple locations"
+            "Do not tell the user your thoughts or disclose your internal workings."
             f"Today is {datetime.datetime.now().strftime('%Y-%m-%d')}"
         )
     )

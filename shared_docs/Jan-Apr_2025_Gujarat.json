@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Gujarat for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 5706.0,
+    "Cotton": 0.0,
+    "Others": 24681.0
+  },
+  "landUseData": {
+    "Natural": 8730.0,
+    "Urban/Barren": 646470.0
+  }
+}

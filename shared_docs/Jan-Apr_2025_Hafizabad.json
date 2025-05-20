@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Hafizabad for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 39974.5,
+    "Cotton": 0.0,
+    "Others": 29472.0
+  },
+  "landUseData": {
+    "Natural": 42853.5,
+    "Urban/Barren": 422955.0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Karachi East for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 1.5,
+    "Cotton": 0.0,
+    "Others": 1255.0
+  },
+  "landUseData": {
+    "Natural": 0.0,
+    "Urban/Barren": 34490.0
+  }
+}

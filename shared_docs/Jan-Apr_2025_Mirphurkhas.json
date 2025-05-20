@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Mirphurkhas for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 72125.0,
+    "Cotton": 0.0,
+    "Others": 116242.5
+  },
+  "landUseData": {
+    "Natural": 111485.5,
+    "Urban/Barren": 1220838.5
+  }
+}

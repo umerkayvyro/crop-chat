@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Karachi Central for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 3.0,
+    "Cotton": 0.0,
+    "Others": 318.5
+  },
+  "landUseData": {
+    "Natural": 0.0,
+    "Urban/Barren": 8412.0
+  }
+}

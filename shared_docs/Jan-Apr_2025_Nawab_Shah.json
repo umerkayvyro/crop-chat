@@ -1,0 +1,12 @@
+{
+  "description": "Land and Crop data for Nawab Shah for Jan-Apr 2025",
+  "cropTypeData": {
+    "Wheat": 205337.5,
+    "Cotton": 0.0,
+    "Others": 104142.0
+  },
+  "landUseData": {
+    "Natural": 21686.0,
+    "Urban/Barren": 608944.0
+  }
+}
