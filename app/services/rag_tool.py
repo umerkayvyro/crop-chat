@@ -9,6 +9,7 @@ from langchain.retrievers import EnsembleRetriever
 from langchain_community.retrievers import BM25Retriever
 import uuid
 from langchain_core.tools import tool
+import os
 
 
 
@@ -30,22 +31,22 @@ doUpdateChromaDB = False
 async def create_retrieval_tool():
     vector_retriever = vectorstore.as_retriever(
         search_type="similarity",
-        search_kwargs={"k": 4},
+        search_kwargs={"k": 1},
     )
+    chunks = await process_documents("shared_docs")
     if doUpdateChromaDB:
-        chunks = await process_documents("shared_docs")
         vectorstore.reset_collection()
         ids = [str(uuid.uuid4()) for _ in chunks]
         print(f"Adding {len(chunks)} documents to the vectorstore.")
         vectorstore.add_documents(documents=chunks, ids=ids)
 
-    # keyword_retriever = BM25Retriever.from_documents(chunks)
-    # keyword_retriever.k =  3
+    keyword_retriever = BM25Retriever.from_documents(chunks)
+    keyword_retriever.k =  1
 
-    # retriever = EnsembleRetriever(
-    #     retrievers=[vector_retriever, keyword_retriever],
-    #     weights=[0.6, 0.4],
-    # )
+    retriever = EnsembleRetriever(
+        retrievers=[vector_retriever, keyword_retriever],
+        weights=[1.0, 0],
+    )
 
     retriever = vector_retriever
 
@@ -53,7 +54,9 @@ async def create_retrieval_tool():
     def vectorstore_retrieval(query: str) -> str:
         # print(f"Query: {query}")
         """Retrieves relevant documents from the vectorstore based on the query."""
+
         results = retriever.invoke(query)
+        print(query)
         # print(f"Results: {results}")
         # print(results)
         # Format the results (e.g., concatenate the document contents)
@@ -63,6 +66,8 @@ async def create_retrieval_tool():
         contents += f"is the most relevant. Found total {len(results)} relevant document chunks.\n"
         contents += "\n".join([( ("="*10) + "\n" + doc.metadata["source"] + "\n" + ("="*10) + "\n" +
             doc.page_content) for doc in results])
+        
+        print(f"Contents: {contents}")
         return contents
 
     @tool
@@ -78,7 +83,28 @@ async def create_retrieval_tool():
             str: The retrieved information.
         """
         try:
-            return vectorstore_retrieval(f"{location} {season} {year}")
+
+            #first check if season_year_location is in filespath
+            #lowercase checks
+            if str.lower(season) == "winter":
+                season = "Jan-Apr"
+            elif str.lower(season) == "summer":
+                season = "Jun-Dec"
+            
+            filepath = "shared_docs/" + f"{season}_{year}_{location}.json"
+            filename = f"{season}_{year}_{location}.json"
+            print(f"Filepath: {filepath}")
+            if os.path.exists(filepath):
+                with open(filepath, "r") as f:
+                    data = f.read()
+                print(f"Found: {filepath}")
+                content = filename + ("="*10) + "\n"
+                content += f"Land and Crop data for {location} for {season} {year}:\n"
+                content += data
+                return content
+
+            return vectorstore_retrieval(f"Land and Crop data for {location} for {season} {year}")
+            # return vectorstore_retrieval(f"{season}_{year}_{location}")
         except Exception as e:
             return f"An error occurred during retrieval of documents"
 

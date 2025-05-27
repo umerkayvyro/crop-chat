@@ -1,0 +1,266 @@
+aenum==3.1.15
+aiofiles==24.1.0
+aiohappyeyeballs @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_6decsjc93r/croot/aiohappyeyeballs_1734469407680/work
+aiohttp @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_ccjz918vvn/croot/aiohttp_1734687143062/work
+aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
+annotated-types @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_fbh4enbns2/croot/annotated-types_1709542919423/work
+anyio @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_d3wggtkt2s/croot/anyio_1729121282950/work
+appnope==0.1.4
+asgiref==3.8.1
+asttokens==3.0.0
+attrs @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_3d06zr_mcz/croot/attrs_1734533118470/work
+azure-ai-documentintelligence==1.0.0
+azure-core==1.32.0
+azure-identity==1.20.0
+backcall==0.2.0
+backoff==2.2.1
+bcrypt==4.2.1
+beautifulsoup4==4.13.3
+bleach==6.2.0
+Brotli @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_d7pp3g74_g/croot/brotli-split_1736182638718/work
+build==1.2.2.post1
+cachetools @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f12x4m5uvx/croot/cachetools_1738225252032/work
+certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_d0mlk2yciq/croot/certifi_1738623741969/work/certifi
+cffi @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_51d1gdg4kr/croot/cffi_1736183297412/work
+chardet==5.2.0
+charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+chroma-hnswlib==0.7.6
+chromadb==0.6.3
+click==8.1.8
+cobble==0.1.4
+coloredlogs==15.0.1
+cryptography @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_97qpgd2gkx/croot/cryptography_1732131165709/work
+dataclasses-json==0.6.7
+decorator==5.2.1
+defusedxml==0.7.1
+Deprecated==1.2.18
+distro==1.9.0
+docopt==0.6.2
+duckduckgo_search==7.3.2
+durationpy==0.9
+emoji==2.14.1
+et_xmlfile==2.0.0
+eval_type_backport==0.2.2
+executing==2.2.0
+faiss-cpu==1.10.0
+fastapi==0.115.8
+fastjsonschema==2.21.1
+filelock==3.17.0
+filetype @ file:///home/conda/feedstock_root/build_artifacts/filetype_1667445778563/work
+flatbuffers==25.2.10
+frozenlist @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_11anscvt0v/croot/frozenlist_1730902824748/work
+fsspec==2025.2.0
+ftfy==6.3.1
+future==1.0.0
+google-ai-generativelanguage @ file:///home/conda/feedstock_root/build_artifacts/google-ai-generativelanguage_1736820566312/work
+google-api-core @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_aflv8y5d6g/croot/google-api-core-split_1722026800400/work
+google-api-python-client @ file:///home/conda/feedstock_root/build_artifacts/google-api-python-client_1738061369096/work
+google-auth @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_d0xxknv0vk/croot/google-auth_1738227353089/work
+google-auth-httplib2 @ file:///home/conda/feedstock_root/build_artifacts/google-auth-httplib2_1733907410727/work
+google-auth-oauthlib==1.2.1
+google-generativeai @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_google-generativeai_1739393421/work
+googleapis-common-protos @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_efdwajbeso/croot/googleapis-common-protos-feedstock_1722026787628/work
+greenlet==3.1.1
+grpcio==1.70.0
+grpcio-status==1.70.0
+gspread==6.2.0
+h11 @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_14h6x3q_k6/croot/h11_1706652288187/work
+html5lib==1.1
+httpcore @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_2ek8c13vuv/croot/httpcore_1706728466947/work
+httplib2 @ file:///home/conda/feedstock_root/build_artifacts/httplib2_1733927481809/work
+httptools==0.6.4
+httpx @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_74uqix89pr/croot/httpx_1723474816711/work
+httpx-sse==0.4.0
+huggingface-hub==0.28.1
+humanfriendly==10.0
+idna @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_2b_jn555_n/croot/idna_1714398852258/work
+importlib_metadata==8.5.0
+importlib_resources==6.5.2
+ipython==8.12.3
+isodate==0.7.2
+jedi==0.19.2
+Jinja2==3.1.6
+jiter==0.9.0
+joblib==1.4.2
+jq==1.8.0
+jsonpatch @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_9dcqemvl4v/croot/jsonpatch_1714483445583/work
+jsonpointer==2.1
+jsonschema==4.23.0
+jsonschema-specifications==2024.10.1
+jupyter_client==8.6.3
+jupyter_core==5.7.2
+jupyterlab_pygments==0.3.0
+kubernetes==32.0.0
+langchain==0.3.20
+langchain-chroma==0.2.2
+langchain-community==0.3.19
+langchain-core==0.3.44
+langchain-google-genai @ file:///home/conda/feedstock_root/build_artifacts/langchain-google-genai_1737203874885/work
+langchain-openai==0.3.8
+langchain-text-splitters==0.3.6
+langdetect==1.0.9
+langgraph==0.2.72
+langgraph-checkpoint==2.0.13
+langgraph-sdk==0.1.51
+langsmith @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_12qgqxtj2m/croot/langsmith_1733128094171/work/python
+line-bot-sdk==3.16.2
+lxml==5.3.1
+mammoth==1.9.0
+markdown-it-py==3.0.0
+markdownify==1.1.0
+marker-pdf==0.2.6
+markitdown==0.1.0a1
+MarkupSafe==3.0.2
+marshmallow==3.26.1
+matplotlib-inline==0.1.7
+mdurl==0.1.2
+mistune==3.1.2
+mmh3==5.1.0
+monotonic==1.6
+mpmath==1.3.0
+msal==1.31.1
+msal-extensions==1.2.0
+msgpack==1.1.0
+multidict @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_3ecxr7g6ut/croot/multidict_1730905500260/work
+mypy-extensions==1.0.0
+nbclient==0.10.2
+nbconvert==7.16.6
+nbformat==5.10.4
+nest-asyncio==1.6.0
+networkx==3.4.2
+nltk==3.9.1
+numpy==1.26.4
+oauth2client==4.1.3
+oauthlib==3.2.2
+odfpy==1.4.1
+olefile==0.47
+onnxruntime==1.20.1
+openai==1.66.3
+opencv-python==4.11.0.86
+openpyxl==3.1.5
+opentelemetry-api==1.30.0
+opentelemetry-exporter-otlp-proto-common==1.30.0
+opentelemetry-exporter-otlp-proto-grpc==1.30.0
+opentelemetry-instrumentation==0.51b0
+opentelemetry-instrumentation-asgi==0.51b0
+opentelemetry-instrumentation-fastapi==0.51b0
+opentelemetry-proto==1.30.0
+opentelemetry-sdk==1.30.0
+opentelemetry-semantic-conventions==0.51b0
+opentelemetry-util-http==0.51b0
+orjson @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_49khvm14n0/croot/orjson_1737040462908/work
+overrides==7.7.0
+packaging @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_15t4xe1fp0/croot/packaging_1734472125760/work
+pandas==2.2.3
+pandocfilters==1.5.1
+parso==0.8.4
+pathvalidate==3.2.3
+pdfminer.six==20240706
+pdftext==0.3.20
+pexpect==4.9.0
+pickleshare==0.7.5
+pillow==10.4.0
+pipreqs==0.5.0
+platformdirs==4.3.6
+portalocker==2.10.1
+posthog==3.14.1
+primp==0.12.1
+prompt_toolkit==3.0.50
+propcache @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_ae_mhm9wk4/croot/propcache_1732303988063/work
+proto-plus @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_0bpkhjfqro/croot/proto-plus_1721740396846/work
+protobuf==5.29.3
+psutil==7.0.0
+ptyprocess==0.7.0
+pure_eval==0.2.3
+puremagic==1.28
+pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
+pyasn1-modules==0.2.8
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydantic @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_7chf34vaoh/croot/pydantic_1734736078302/work
+pydantic-settings==2.7.1
+pydantic_core @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_cbybko3h26/croot/pydantic-core_1734726062333/work
+pydub==0.25.1
+Pygments==2.19.1
+PyJWT==2.10.1
+PyMuPDF==1.25.3
+pymupdf4llm==0.0.17
+pyOpenSSL @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_71t2hv4vvv/croot/pyopenssl_1723651594788/work
+pyparsing @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_32bhy1idl3/croot/pyparsing_1731445537860/work
+pypdf==5.3.0
+PyPDF2==3.0.1
+pypdfium2==4.30.1
+PyPika==0.48.9
+pyproject_hooks==1.2.0
+PySocks @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/pysocks_1699239289103/work
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+python-iso639==2025.2.8
+python-magic==0.4.27
+python-multipart==0.0.20
+python-oxmsg==0.0.2
+python-pptx==1.0.2
+pytz==2025.1
+PyYAML @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_34t43scp15/croot/pyyaml_1728658999838/work
+pyzmq==26.3.0
+rank-bm25==0.2.2
+RapidFuzz==3.12.1
+ray==2.43.0
+referencing==0.36.2
+regex==2024.11.6
+requests @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_2eh84h3yiv/croot/requests_1730999127987/work
+requests-oauthlib==2.0.0
+requests-toolbelt @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/requests-toolbelt_1699241266818/work
+rich==13.9.4
+rpds-py==0.23.1
+rsa @ file:///tmp/build/80754af9/rsa_1614366226499/work
+safetensors==0.5.3
+scikit-learn==1.6.1
+scipy==1.15.2
+serpapi==0.1.5
+setuptools==75.8.0
+shellingham==1.5.4
+six==1.17.0
+sniffio @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a46njf828g/croot/sniffio_1705431298111/work
+soupsieve==2.6
+SpeechRecognition==3.14.1
+SQLAlchemy==2.0.38
+stack-data==0.6.3
+starlette==0.45.3
+surya-ocr==0.4.5
+sympy==1.13.3
+tabulate==0.9.0
+tavily-python==0.5.1
+tenacity @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_c71tb3i2xv/croot/tenacity_1730302538205/work
+texify==0.1.10
+threadpoolctl==3.5.0
+tiktoken==0.8.0
+tinycss2==1.4.0
+tokenizers==0.15.2
+torch==2.2.2
+tornado==6.4.2
+tqdm @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_b8a_tjze9j/croot/tqdm_1738946058169/work
+traitlets==5.14.3
+transformers==4.36.2
+typer==0.15.1
+typing-inspect==0.9.0
+typing_extensions @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_6dn2s8ln8g/croot/typing_extensions_1734714858107/work
+tzdata==2025.1
+unstructured==0.16.21
+unstructured-client==0.30.1
+uritemplate @ file:///home/conda/feedstock_root/build_artifacts/uritemplate_1733927878495/work
+urllib3 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_8bqv7goib8/croot/urllib3_1737133637259/work
+uvicorn==0.34.0
+uvloop==0.21.0
+watchfiles==1.0.4
+wcwidth==0.2.13
+webencodings==0.5.1
+websocket-client==1.8.0
+websockets==15.0
+wheel==0.45.1
+wrapt==1.17.2
+xlrd==2.0.1
+XlsxWriter==3.2.2
+yarg==0.1.9
+yarl @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_b63sbdb9p_/croot/yarl_1732546845158/work
+youtube-transcript-api==0.6.3
+zipp==3.21.0

@@ -1,6 +1,6 @@
-# Cricket Chatbot
+# Agro Chatbot
 
-This project is a chatbot designed to discuss cricket-related topics. It leverages the Gemini 2.0 Flash model from Google to provide informative and engaging conversations.
+This project is a chatbot designed to discuss agro-related topics. It leverages the Gemini 2.0 Flash model from Google to provide informative and engaging conversations.
 
 ## Prerequisites
 
@@ -52,7 +52,7 @@ Before you begin, ensure you have the following installed:
 
 ## Project Structure
 
-cricket-chatbot/
+agro-chatbot/
 ├── app/                # Main application directory
 │   ├── pycache/    # Python cache files (ignore)
 │   ├── models/         # Data models (e.g., for chat messages)
@@ -143,20 +143,20 @@ The application can be deployed to various platforms, including:
 2.  **Build the Docker image:**
 
     ```bash
-    docker build -t cricket-chatbot .
+    docker build -t agro-chatbot .
     ```
 
 3.  **Push the image to Google Container Registry (GCR):**
 
     ```bash
-    docker tag cricket-chatbot gcr.io/<your_gcp_project_id>/cricket-chatbot
-    docker push gcr.io/<your_gcp_project_id>/cricket-chatbot
+    docker tag agro-chatbot gcr.io/<your_gcp_project_id>/agro-chatbot
+    docker push gcr.io/<your_gcp_project_id>/agro-chatbot
     ```
 
 4.  **Deploy to Cloud Run:**
 
     ```bash
-    gcloud run deploy --image gcr.io/<your_gcp_project_id>/cricket-chatbot --platform managed --region <your_gcp_region>
+    gcloud run deploy --image gcr.io/<your_gcp_project_id>/agro-chatbot --platform managed --region <your_gcp_region>
     ```
 
     *   Replace `<your_gcp_project_id>` with your Google Cloud project ID.

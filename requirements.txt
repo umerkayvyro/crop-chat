@@ -1,7 +1,14 @@
 fastapi
-uvicorn
-python-dotenv
 langchain
+langchain_chroma
+langchain_community
+langchain_core
 langchain_google_genai
+langchain_text_splitters
 langgraph
-duckduckgo-search
+pydantic
+python-dotenv
+uvicorn
+python-multipart
+jq
+rank_bm25
