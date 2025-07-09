@@ -50,30 +50,32 @@ Before you begin, ensure you have the following installed:
 
     **Important:**  Never commit your `.env` file to version control.  Add it to your `.gitignore` file.
 
+Absolutely — here’s a clean, GitHub-friendly Markdown version of your project structure for your `README.md`:
+
 ## Project Structure
-
+```
 agro-chatbot/
-├── app/                # Main application directory
-│   ├── pycache/    # Python cache files (ignore)
-│   ├── models/         # Data models (e.g., for chat messages)
-│   │   └── chat_models.py
-│   ├── public/         # Static files (e.g., HTML, CSS, JavaScript)
+├── app/                   # Main application directory
+│   ├── **pycache**/       # Python cache files (ignored)
+│   ├── models/            # Data models (e.g., for chat messages)
+│   │   └── chat\_models.py
+│   ├── public/            # Static files (e.g., HTML, CSS, JavaScript)
 │   │   └── index.html
-│   ├── routes/         # API route definitions
-│   │   ├── pycache/
-│   │   ├── chat.py     # Chat-related API endpoints
-│   │   └── home.py     # Home/index route
-│   ├── services/       # Business logic and external service integrations
-│   │   ├── pycache/
-│   │   └── chat_service.py # Logic for interacting with the Gemini model
-│   ├── utils/          # Utility functions and helpers
-│   ├── config.py       # Configuration settings
-│   ├── dependencies.py # Dependency injection setup
-│   └── main.py         # FastAPI application entry point
-├── .env                # Environment variables (API keys, settings)
-├── README.md           # This file
-└── requirements.txt    # Python dependencies
-
+│   ├── routes/            # API route definitions
+│   │   ├── **pycache**/
+│   │   ├── chat.py        # Chat-related API endpoints
+│   │   └── home.py        # Home/index route
+│   ├── services/          # Business logic and external service integrations
+│   │   ├── **pycache**/
+│   │   └── chat\_service.py # Logic for interacting with the Gemini model
+│   ├── utils/             # Utility functions and helpers
+│   ├── config.py          # Configuration settings
+│   ├── dependencies.py    # Dependency injection setup
+│   └── main.py            # FastAPI application entry point
+├── .env                   # Environment variables (API keys, settings)
+├── README.md              # Project documentation
+└── requirements.txt       # Python dependencies
+```
 ## Running the Application
 
 1.  **Navigate to the project root directory in your terminal.**
