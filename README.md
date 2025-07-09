@@ -14,8 +14,8 @@ Before you begin, ensure you have the following installed:
 1.  **Clone the repository:**
 
     ```bash
-    git clone <todo>
-    cd <todo>
+    git clone https://github.com/umerkayvyro/crop-chat/
+    cd crop-chat
     ```
 
 2.  **Create a conda environment (recommended):**
