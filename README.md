@@ -50,8 +50,6 @@ Before you begin, ensure you have the following installed:
 
     **Important:**  Never commit your `.env` file to version control.  Add it to your `.gitignore` file.
 
-Absolutely — here’s a clean, GitHub-friendly Markdown version of your project structure for your `README.md`:
-
 ## Project Structure
 ```
 agro-chatbot/
